@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="snapdeal">
+    <listeners>
+        <listener class-name="com.snapdeal.listeners.MyListeners">
+
+        </listener>
+    </listeners>
+    <test name="Snapdeal tests">
+        <classes>
+            <class name="com.snapdeal.testcases.Login"/>
+        </classes>
+    </test>
+</suite>
